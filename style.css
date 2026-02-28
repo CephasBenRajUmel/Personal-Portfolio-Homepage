@@ -1,17 +1,17 @@
-header h1{
-  margin: 0;
-  font-size: 32px;
-}
-.title{
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-size: 32px;
-  font-weight: bold;
-}
 .post {
   border: 1px solid #e6e6e6;
   border-radius: 12px;
   padding: 14px;
+}
+.post-footer {
+  
+}
+.post-footer a{
+  color: blue;
+  text-decoration: none;
+}
+.post-footer a:hover{
+  text-decoration: underline;
 }
 .content {
   display: flex;
@@ -30,7 +30,7 @@ header {
     transition: 0.3s;
     padding: 20px;
 }
-footer {
+.contact {
     background: #222;
     color: white;
     text-align: center;
@@ -43,18 +43,18 @@ footer a{
     text-decoration: none;
 }
 nav {
-    display: flex;
     background: #333;
     margin-top: 0px;
-    justify-content: space-evenly;
 }
 nav a {
     color: white;
     text-decoration: none;
     padding: 8px 12px;
-    font-size: 24px;
 }
 nav a:hover {
     background: #666;
     border-radius: 4px;
+}
+.container{
+  margin: 0;
 }
